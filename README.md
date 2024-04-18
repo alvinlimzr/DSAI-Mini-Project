@@ -37,23 +37,49 @@ We used resampling techniques to combat class imbalance in the dataset. We divid
 
 The code combines Synthetic Minority Over-sampling Technique (SMOTE) and Random Undersampling into a pipeline to address class imbalance. SMOTE is used to oversample the minority classes, while Random Undersampling reduces the size of the majority class. This strategy aims to improve model performance by ensuring a more balanced class distribution.
 
-## Summary
+## Model Evaluation and Metrics Visualization Functions
 
-The first model tested is logistic regression, fine-tuned to run a high number of times to ensure it works as best as it can. Once the model is fitted, it's tested on a single piece of data from the test set, and the model's certainty about that data belonging to each possible category is shown.
+Developed a function fit_and_score to train models, predict, and calculate detailed classification metrics.
 
-Accuracy:
+Created a plot_all_metrics function to visually represent precision, recall, F1-score, and the confusion matrix for model performance assessment.
 
-XGBoost...
+## Function Details
 
-Accuracy:
+fit_and_score trains the model, makes predictions, and computes a classification report, along with overall accuracy.
 
-XVM...
+plot_all_metrics visualizes the evaluation metrics in a multi-plot layout for comprehensive analysis, mapping target class names for readability and providing an overview of model performance.
 
-Accuracy:
+## Models Summary
 
-Random Forest...
+Across all models, Random Forest stands out with the highest overall accuracy, precision, recall, and F1-scores, showing a strong performance in all metrics.
 
-Accuracy:
+KNN also demonstrates high accuracy, very close to that of Random Forest, but with a slightly lower F1-score for the 'No Diabetes' class.
 
+XGBoost and MLP perform well but are a step behind Random Forest and KNN in terms of overall accuracy and balance of precision and recall.
 
+Logistic Regression shows the lowest accuracy and macro average, suggesting it is less suited to the complexity of the dataset compared to the others.
+
+Considering the balance between all the key performance indicators, Random Forest is concluded to be the best model among the ones evaluated, providing robust predictions across all diabetes classes with the least amount of misclassification as evidenced by the confusion matrices.
+
+## Final Training
+
+The optimal hyperparameters for the Random Forest model include 250 trees, no maximum depth limit, at least 2 samples required to split an internal node, at least 1 sample required at a leaf node, 'log2' as the max features when looking for the best split, and no bootstrapping.
+
+The best accuracy achieved from the tuning it with random search is approximately 96.599%, indicating a potentially slight improved performance over the default parameter setting.
+
+The fine tuned RF model has an overall accuracy of 97.21% with a macro avg F1-score of aboutt 0.967, which is a slight improvement over the default RF model's accuracy of 96.47% and macro avg F1-score of 0.963.
+
+Both precision and recall are marginally higher for the best RF model across all classes compared to the default RF model.
+
+## Conclusion
+
+In conclusion, the fine-tuned Random Forest model outperforms the default Random Forest model, yielding higher precision, recall, and F1-scores, thereby making it the preferred model for this dataset.
+
+We hope our project can provide real-world implications like:
+
+Assisting healthcare professionals in early diagnosis, leading to timely interventions.
+
+Allow insurance companies to use the model to calculate premiums based on individual risk profiles.
+
+Hospitals could incorporate the model into their patient management systems for preemptive health risk assessments.
 
