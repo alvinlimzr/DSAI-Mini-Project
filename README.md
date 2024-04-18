@@ -73,13 +73,8 @@ Both precision and recall are marginally higher for the best RF model across all
 
 ## Conclusion
 
-In conclusion, the fine-tuned Random Forest model outperforms the default Random Forest model, yielding higher precision, recall, and F1-scores, thereby making it the preferred model for this dataset.
+Fine-tuning models with techniques like RandomizedSearchCV enhanced the predictive performance slightly but significantly. Such improvements, though small in percentage, could lead to better healthcare outcomes when applied to large populations.
 
-We hope our project can provide real-world implications like:
+In conclusion, the fine-tuned Random Forest model outperforms the default Random Forest model, yielding higher precision, recall, and F1-scores, thereby making it the preferred model for this dataset. 
 
-Assisting healthcare professionals in early diagnosis, leading to timely interventions.
-
-Allow insurance companies to use the model to calculate premiums based on individual risk profiles.
-
-Hospitals could incorporate the model into their patient management systems for preemptive health risk assessments.
 
