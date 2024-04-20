@@ -23,6 +23,16 @@ The data used can be found here: [Diabetes Health Indicators Dataset](https://ww
 - `diabetes_012_health_indicators_BRFSS2015.csv`: Dataset file.
 - `SC1015_Project.ipynb`: Jupyter notebook containing all the code and analysis.
 
+## Installation Guide
+
+Unzip var.zip and put it under /var folder
+
+/parent_folder
+|- /var
+|  |- <file_name>.pkl
+|  |- ...
+|- jupyter_notebook.ipynb
+
 ## Distribution Summary
 
 We note that the distribution of the target variable, which categorizes respondents into 'No diabetes', 'Prediabetes', and 'Diabetes', has a noticeable data imbalance, with a significantly larger number of respondents identified as non-diabetic compared to those categorized as pre-diabetic or diabetic. 
