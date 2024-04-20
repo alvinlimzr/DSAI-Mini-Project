@@ -1,0 +1,8 @@
+pandas
+numpy
+ipywidgets
+ipykernel
+scikit-learn
+xgboost
+imbalanced-learn
+plotly
