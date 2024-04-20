@@ -30,12 +30,12 @@ To run this project, you will need to install Python and the necessary Python li
 1. **Python Installation:**
    Make sure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/) or install it using your operating system’s package manager.
 
-3. **Clone the Repository:**
+2. **Clone the Repository:**
    ```bash
    git clone https://github.com/alvinlimzr/DSAI-Mini-Project.git
    cd DSAI-Mini-Project
 
-4. **Ordering of Files**
+3. **Ordering of Files**
    
   Unzip var.zip and put it under /var folder
   
