@@ -25,13 +25,29 @@ The data used can be found here: [Diabetes Health Indicators Dataset](https://ww
 
 ## Installation Guide
 
-Unzip var.zip and put it under /var folder
+To run this project, you will need to install Python and the necessary Python libraries. Here’s how you can set up your environment:
 
-/parent_folder
-|- /var
-|  |- <file_name>.pkl
-|  |- ...
-|- jupyter_notebook.ipynb
+1. **Python Installation:**
+   Make sure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/) or install it using your operating system’s package manager.
+
+3. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/alvinlimzr/DSAI-Mini-Project.git
+   cd DSAI-Mini-Project
+
+4. **Ordering of Files**
+   
+  Unzip var.zip and put it under /var folder
+  
+  /parent_folder
+  |- /var
+  |  |- <file_name>.pkl
+  |  |- ...
+  |- jupyter_notebook.ipynb
+
+4. **Installing Python Libraries** (Not Required for Cloud Based Environments)
+   pip install numpy pandas sklearn xgboost plotly imbalanced-learn ipywidgets
+
 
 ## Distribution Summary
 
