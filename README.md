@@ -46,6 +46,7 @@ To run this project, you will need to install Python and the necessary Python li
   |- jupyter_notebook.ipynb
 
 4. **Installing Python Libraries** (Not Required for Cloud Based Environments)
+   ```bash
    pip install numpy pandas sklearn xgboost plotly imbalanced-learn ipywidgets
 
 
