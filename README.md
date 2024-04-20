@@ -28,30 +28,41 @@ The data used can be found here: [Diabetes Health Indicators Dataset](https://ww
 To run this project, you will need to install Python and the necessary Python libraries. Here’s how you can set up your environment:
 
 1. **Python Installation:**
-   Make sure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/) or install it using your operating system’s package manager.
-
+   Make sure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/) or install it using your operating system's package manager.
 2. **Clone the Repository:**
+
    ```bash
    git clone https://github.com/alvinlimzr/DSAI-Mini-Project.git
    cd DSAI-Mini-Project
 
+   ```
 3. **Ordering of Files**
    Unzip var.zip and put it under /var folder
+
    ```
    /parent_folder
    |- /var
    |  |- <file_name>.pkl
    |  |- ...
-   |- jupyter_notebook.ipynb
+   |- <notebook>.ipynb
+   |- diabetes_012_health_indicators_BRFSS2015.csv
+   |- README.md
+   |- requirements.txt
+   |- var.zip
+   |- .gitattributes
+   |- .gitignore
    ```
-4. **Installing Python Libraries** (Not Required for Cloud Based Environments)
-   ```bash
-   pip install numpy pandas sklearn xgboost plotly imbalanced-learn ipywidgets
+4. **Installing Python Libraries**
 
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. **Running the Jupyter Notebook:**
+   You can now open the Jupyter notebook and run the code cells. Do read cell comments with "# NOTE:..." for important information.
 
 ## Distribution Summary
 
-We note that the distribution of the target variable, which categorizes respondents into 'No diabetes', 'Prediabetes', and 'Diabetes', has a noticeable data imbalance, with a significantly larger number of respondents identified as non-diabetic compared to those categorized as pre-diabetic or diabetic. 
+We note that the distribution of the target variable, which categorizes respondents into 'No diabetes', 'Prediabetes', and 'Diabetes', has a noticeable data imbalance, with a significantly larger number of respondents identified as non-diabetic compared to those categorized as pre-diabetic or diabetic.
 
 Moreover, other variables that could be predictors for diabetes, such as BMI, also show signs of data imbalance and outliers. The BMI distribution, for instance, has a long tail with high values that could represent extreme cases of obesity, a known risk factor for diabetes. If these outliers represent true data points, they could be crucial in predicting diabetes, but if they are errors, they may distort the model's accuracy.
 
@@ -101,6 +112,4 @@ Both precision and recall are marginally higher for the best RF model across all
 
 Fine-tuning models with techniques like RandomizedSearchCV enhanced the predictive performance slightly but significantly. Such improvements, though small in percentage, could lead to better healthcare outcomes when applied to large populations.
 
-In conclusion, the fine-tuned Random Forest model outperforms the default Random Forest model, yielding higher precision, recall, and F1-scores, thereby making it the preferred model for this dataset. 
-
-
+In conclusion, the fine-tuned Random Forest model outperforms the default Random Forest model, yielding higher precision, recall, and F1-scores, thereby making it the preferred model for this dataset.
