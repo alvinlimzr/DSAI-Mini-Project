@@ -23,6 +23,32 @@ The data used can be found here: [Diabetes Health Indicators Dataset](https://ww
 - `diabetes_012_health_indicators_BRFSS2015.csv`: Dataset file.
 - `SC1015_Project.ipynb`: Jupyter notebook containing all the code and analysis.
 
+## Installation Guide
+
+To run this project, you will need to install Python and the necessary Python libraries. Here’s how you can set up your environment:
+
+1. **Python Installation:**
+   Make sure you have Python installed. You can download it from [python.org](https://www.python.org/downloads/) or install it using your operating system’s package manager.
+
+2. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/alvinlimzr/DSAI-Mini-Project.git
+   cd DSAI-Mini-Project
+
+3. **Ordering of Files**
+   Unzip var.zip and put it under /var folder
+   ```
+   /parent_folder
+   |- /var
+   |  |- <file_name>.pkl
+   |  |- ...
+   |- jupyter_notebook.ipynb
+   ```
+4. **Installing Python Libraries** (Not Required for Cloud Based Environments)
+   ```bash
+   pip install numpy pandas sklearn xgboost plotly imbalanced-learn ipywidgets
+
+
 ## Distribution Summary
 
 We note that the distribution of the target variable, which categorizes respondents into 'No diabetes', 'Prediabetes', and 'Diabetes', has a noticeable data imbalance, with a significantly larger number of respondents identified as non-diabetic compared to those categorized as pre-diabetic or diabetic. 
