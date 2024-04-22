@@ -38,7 +38,7 @@ To run this project, you will need to install Python and the necessary Python li
    ```
 3. **Ordering of Files**
    Unzip var.zip and put it under /var folder
-
+   (*if the var.zip file is corrupted, you will need to download it manually as it is a very big file (864MB)*)
    ```
    /parent_folder
    |- /var
@@ -52,12 +52,12 @@ To run this project, you will need to install Python and the necessary Python li
    |- .gitattributes
    |- .gitignore
    ```
-4. **Installing Python Libraries**
+5. **Installing Python Libraries**
 
    ```bash
    pip install -r requirements.txt
    ```
-5. **Running the Jupyter Notebook:**
+6. **Running the Jupyter Notebook:**
    You can now open the Jupyter notebook and run the code cells. Do read cell comments with "# NOTE:..." for important information.
 
 ## Distribution Summary
