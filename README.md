@@ -88,10 +88,10 @@ plot_all_metrics visualizes the evaluation metrics in a multi-plot layout for co
 
 ## Models Summary
 ![rf](./assets/rf.jpg)
-![rf](./assets/lr.jpg)
-![rf](./assets/mlp.jpg)
-![rf](./assets/xg.jpg)
-![rf](./assets/knn.jpg)
+![lr](./assets/lr.jpg)
+![mlp](./assets/mlp.jpg)
+![xg](./assets/xg.jpg)
+![knn](./assets/knn.jpg)
 Across all models, Random Forest stands out with the highest overall accuracy, precision, recall, and F1-scores, showing a strong performance in all metrics.
 
 KNN also demonstrates high accuracy, very close to that of Random Forest, but with a slightly lower F1-score for the 'No Diabetes' class.
@@ -111,7 +111,7 @@ The best accuracy achieved from the tuning it with random search is approximatel
 The fine tuned RF model has an overall accuracy of 97.21% with a macro avg F1-score of aboutt 0.967, which is a slight improvement over the default RF model's accuracy of 96.47% and macro avg F1-score of 0.963.
 
 Both precision and recall are marginally higher for the best RF model across all classes compared to the default RF model.
-![rf](./assets/best_rf_model.jpg)
+![best_rf_model](./assets/best_rf_model.jpg)
 ## Conclusion
 
 Fine-tuning models with techniques like RandomizedSearchCV enhanced the predictive performance slightly but significantly. Such improvements, though small in percentage, could lead to better healthcare outcomes when applied to large populations.
