@@ -74,17 +74,21 @@ We used resampling techniques to combat class imbalance in the dataset. We divid
 
 The code combines Synthetic Minority Over-sampling Technique (SMOTE) and Random Undersampling into a pipeline to address class imbalance. SMOTE is used to oversample the minority classes, while Random Undersampling reduces the size of the majority class. This strategy aims to improve model performance by ensuring a more balanced class distribution.
 
-## Model Evaluation and Metrics Visualization Functions
+## Data Preprocessing
 
-Developed a function fit_and_score to train models, predict, and calculate detailed classification metrics.
+- Removed outliers with IQR Method
+- Performed MinMax Scaling and Distribution Plotting
+- Performed One-Hot Encoding of Categorical Variables
+- Performed Class Balancing and Dataset Partitioning
 
-Created a plot_all_metrics function to visually represent precision, recall, F1-score, and the confusion matrix for model performance assessment.
+## Model Selection
 
-## Function Details
-
-fit_and_score trains the model, makes predictions, and computes a classification report, along with overall accuracy.
-
-plot_all_metrics visualizes the evaluation metrics in a multi-plot layout for comprehensive analysis, mapping target class names for readability and providing an overview of model performance.
+- Developed a function `fit_and_score` to train models, predict, and calculate detailed classification metrics.
+  - trains the model, makes predictions, and computes a classification report, along with overall accuracy.
+- Created a `plot_all_metrics` function to visually represent precision, recall, F1-score, and the confusion matrix for model performance assessment.
+  - visualizes the evaluation metrics in a multi-plot layout for comprehensive analysis, mapping target class names for readability and providing an overview of model performance.
+- Performed Model Training and Performance Tracking by capturing the start time to track duration of model fitting and scoring.
+- Performed Model Visualisations
 
 ## Models Summary
 ![rf](./assets/rf.jpg)
