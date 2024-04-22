@@ -121,3 +121,4 @@ Both precision and recall are marginally higher for the best RF model across all
 Through this project, we not only honed our technical skills in handling data imbalance, preprocessing data, and tuning machine learning models but also developed a deeper understanding of the practical challenges and considerations in building predictive models for health-related outcomes. The experience has been invaluable, emphasizing the importance of a methodical approach in tackling data-driven problems in healthcare.
 
 We believe our findings could assist healthcare professionals in early intervention efforts and contribute to the broader dialogue on leveraging AI to manage and predict chronic diseases like diabetes more effectively. Future work could explore incorporating more diverse datasets and experimenting with newer algorithms to further enhance prediction accuracy.
+
