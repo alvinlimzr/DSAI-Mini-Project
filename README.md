@@ -1,5 +1,10 @@
 # SC1015 Data Science & AI Mini Project - Diabetes Health Indicators
 ![first](./assets/first.png)
+
+## Video Presentation
+
+<iframe width="810px" height="450px" src="https://www.youtube.com/embed/kP3_iWfozN0?si=SiNjF6liRFbVTD9a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Project Overview
 
 This repository contains the machine learning project developed by students from Nanyang Technological University for the SC1015 - Introduction to Data Science & Artificial Intelligence course. The project aims to predict the risk of diabetes using demographic, lifestyle, and health indicator data. The dataset is sourced from the 2015 Behavioral Risk Factor Surveillance System (BRFSS) and is available on Kaggle.
@@ -116,6 +121,13 @@ The fine tuned RF model has an overall accuracy of 97.21% with a macro avg F1-sc
 
 Both precision and recall are marginally higher for the best RF model across all classes compared to the default RF model.
 ![best_rf_model](./assets/best_rf_model.jpg)
+
+## Final Training
+
+Our notebook contains a UI that allows users to input their health indicators and receive a prediction of their diabetes risk. The UI is built using the `ipywidgets` library and provides a user-friendly interface for interacting with the model.
+
+![ui](./assets/ui.png)
+
 ## Conclusion
 
 Through this project, we not only honed our technical skills in handling data imbalance, preprocessing data, and tuning machine learning models but also developed a deeper understanding of the practical challenges and considerations in building predictive models for health-related outcomes. The experience has been invaluable, emphasizing the importance of a methodical approach in tackling data-driven problems in healthcare.
