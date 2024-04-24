@@ -13,7 +13,7 @@ This repository contains the machine learning project developed by students from
 
 ## Video Presentation
 
-<iframe width="810px" height="450px" src="https://www.youtube.com/embed/kP3_iWfozN0?si=SiNjF6liRFbVTD9a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Link to video presentation: [https://youtu.be/kP3_iWfozN0](https://youtu.be/kP3_iWfozN0)
 
 ## Motivation
 
