@@ -1,4 +1,5 @@
-# SC1015 Data Science & AI Mini Project - Diabetes Health Indicators
+# SC1015 Mini Project - Diabetes Health Indicators
+
 ![first](./assets/first.png)
 
 ## Project Overview
@@ -44,6 +45,7 @@ To run this project, you will need to install Python and the necessary Python li
 3. **Ordering of Files**
    Unzip var.zip and put it under /var folder
    (*if the var.zip file is corrupted, you will need to download it manually as it is a very big file (864MB)*)
+
    ```
    /parent_folder
    |- /var
@@ -57,12 +59,12 @@ To run this project, you will need to install Python and the necessary Python li
    |- .gitattributes
    |- .gitignore
    ```
-5. **Installing Python Libraries**
+4. **Installing Python Libraries**
 
    ```bash
    pip install -r requirements.txt
    ```
-6. **Running the Jupyter Notebook:**
+5. **Running the Jupyter Notebook:**
    You can now open the Jupyter notebook and run the code cells. Do read cell comments with "# NOTE:..." for important information.
 
 ## Distribution Summary
@@ -96,6 +98,7 @@ The code combines Synthetic Minority Over-sampling Technique (SMOTE) and Random 
 - Performed Model Visualisations
 
 ## Models Summary
+
 ![rf](./assets/rf.jpg)
 ![lr](./assets/lr.jpg)
 ![mlp](./assets/mlp.jpg)
@@ -135,4 +138,3 @@ Our notebook contains a UI that allows users to input their health indicators an
 Through this project, we not only honed our technical skills in handling data imbalance, preprocessing data, and tuning machine learning models but also developed a deeper understanding of the practical challenges and considerations in building predictive models for health-related outcomes. The experience has been invaluable, emphasizing the importance of a methodical approach in tackling data-driven problems in healthcare.
 
 We believe our findings could assist healthcare professionals in early intervention efforts and contribute to the broader dialogue on leveraging AI to manage and predict chronic diseases like diabetes more effectively. Future work could explore incorporating more diverse datasets and experimenting with newer algorithms to further enhance prediction accuracy.
-
